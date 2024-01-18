@@ -1,27 +1,25 @@
 .page.theme_light {
-  --text-color:  #353430;
-  --accent-color:  #ff8dcb;
-  --brand-color:  #ffc2e6;
-  --highlight-color:  #353430;
-  --secondary-color:  #353430;
-  --page-background-color:  #fff1f7;
+  --text-color: #353430;
+  --accent-color: #ff8dcb;
+  --brand-color: #ffc2e6;
+  --highlight-color: #353430;
+  --secondary-color: #353430;
+  --page-background-color: #fff1f7;
   --page-background-image: url("../images/cover-image-light.png");
   --rec-decor-visibility: hidden;
-  --secondary-color-transparent:#35343040;
-
+  --secondary-color-transparent: #35343040;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --text-color: #353430;
-    --accent-color:  #ff8dcb;
-    --brand-color:  #ffc2e6;
+    --accent-color: #ff8dcb;
+    --brand-color: #ffc2e6;
     --highlight-color: #353430;
     --secondary-color: #353430;
     --page-background-color: #fff1f7;
     --page-background-image: url("../images/cover-image-light.png");
     --rec-decor-visibility: hidden;
-    --secondary-color-transparent:#35343040;
-
+    --secondary-color-transparent: #35343040;
   }
 }

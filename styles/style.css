@@ -1,5 +1,5 @@
 .page {
-  font-family: "IBM Plex Mono",sans-serif;
+  font-family: "IBM Plex Mono", sans-serif;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -60,12 +60,11 @@
   cursor: pointer;
 }
 
-.header__theme-menu-button:focus{
+.header__theme-menu-button:focus {
   outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
-
   border-bottom: 1px solid var(--secondary-color);
 }
 
@@ -112,7 +111,7 @@
   position: relative;
 }
 
-.title-decor{
+.title-decor {
   background-color: var(--accent-color);
 }
 
@@ -141,12 +140,12 @@
 
 .main-section {
   display: grid;
-  gap:20px;
+  gap: 20px;
 }
 
-.article-list{
+.article-list {
   display: grid;
-  gap:20px;
+  gap: 20px;
 }
 
 .main-title-section {
@@ -201,9 +200,9 @@
   flex-direction: column;
 }
 
-.gallery{
+.gallery {
   display: grid;
-  gap:10px;
+  gap: 10px;
 }
 
 .footer {
@@ -234,14 +233,14 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
-  .header__theme-menu{
-  margin-block-start: 170px;
-  margin-block-end: 70px;
+  .header__theme-menu {
+    margin-block-start: 170px;
+    margin-block-end: 70px;
   }
 
   .header {
     padding-inline-start: 0;
-}
+  }
 
   .header-title-text {
     justify-self: end;
